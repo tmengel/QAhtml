@@ -5,7 +5,7 @@
 
 R__LOAD_LIBRARY(libqadrawcalo.so)
 
-void draw_calo(const std::string &rootfile) {
+void draw_calo(const std::string &rootfile="/sphenix/user/tmengel/offline-qa/myQAhtml/eventcombiner/jobs/pro001_2025p012_v001/output/agg/HIST_JETQA-00074491-9999.root") {
   SetsPhenixStyle();
   QADrawClient *cl = QADrawClient::instance();
   /* cl->Verbosity(1); */
